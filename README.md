@@ -22,14 +22,6 @@ This is a **Next.js + Electron** application built with the Nextron project that
 
 The following is the latest project **file structure** for the **Nextron-Python-Electron** project, which supports **Electron, Next.js, Tailwind CSS, ShadCN UI components, FastAPI, Cython-based executable builds, and Hugo documentation**.  The project has a binary executable version of FastAPI, which enables the web service and API to run without a Python installation.  The project also includes a Hugo documentation engine, which is a great way to create offline documentation for your project.  The project also includes a centralized Tailwind CSS and ShadCN UI component design system, which is used by both the Next.js and Hugo documentation engines.  The project also includes a pre-built version of the FastAPI binary for macOS and Linux, which can be used to run the web service and API without a Python installation.  The project also includes a pre-built version of the Hugo documentation engine, which can be used to create, edit and view  documentation for your project, even if offline.   The project can be installed on a portable .zip drive, and can easily be distributed to other users via .zip or online with a standard macos .dmg or a windows .exe file.
 
-```
-/nextron-python-offline project structure
-
-/src
-  ├── /app
-  ├── /docs
-/public
-/dist
 
 # 📦 Installation Guide (Phased Approach)
 
@@ -74,6 +66,141 @@ npm install -g shadcn-ui
 npx shadcn init
 npx shadcn add button input card
 ```
+
+## Install UltraDocs (Hugo Docs) and UltraDocs Theme
+
+UltraDocs is a Hugo theme designed for documentation websites. It automatically ingests your repository content and generates a documentation website that is viewable offline by AI or by humans. UltraDocs also provides an enhanced knowledge graph-based content map in JSON schema, XLSX, and Markdown formats.
+
+UltraDocs is built on the Hugo static site generator.
+
+## Documentation
+
+For detailed information, visit the UltraDocs documentation website which is built using this theme.
+
+## Steps to Use UltraDocs as Your Hugo Docs Template in New Projects
+
+### 1. Install Hugo
+
+Ensure you have Hugo installed. If not, install it with:
+
+```sh
+brew install hugo  # macOS
+choco install hugo # Windows
+sudo apt install hugo # Linux
+```
+
+### 2. Clone the UltraDocs Repository
+
+```sh
+git clone https://github.com/loulibre/ultradocs.git
+cd ultradocs
+```
+
+### 3. Initialize Git and Connect to Your Own Repository
+
+```sh
+git init
+git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
+git branch -M main
+git add .
+git commit -m "Initial commit"
+git push -u origin main
+```
+
+### 4. Start the Hugo Server Locally
+
+```sh
+hugo server -D
+```
+
+Then open your browser at: [http://localhost:1313](http://localhost:1313)
+
+---
+
+## Using UltraDocs in a New Hugo Project
+
+### 5. Create a New Hugo Project with UltraDocs
+
+```sh
+hugo new site mydocs
+cd mydocs
+git init
+git submodule add https://github.com/loulibre/ultradocs.git themes/ultradocs
+```
+
+Modify `config.toml` in your new project:
+
+```toml
+theme = "ultradocs"
+```
+
+### 6. Configure the UltraDocs Theme
+
+Modify `config.toml` to include UltraDocs features:
+
+```toml
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "My Documentation Site"
+theme = "ultradocs"
+```
+
+### 7. Regenerate Documentation with UltraDocs
+
+Whenever you add content, generate the documentation:
+
+```sh
+hugo
+```
+
+This will create the static files in the `public/` directory.
+
+---
+
+## Deploying UltraDocs
+
+### 8. Deploy UltraDocs to GitHub Pages (Optional)
+
+```sh
+git add .
+git commit -m "Deploy UltraDocs site"
+git push origin main
+hugo -D -d docs  # Output files to /docs
+```
+
+Then configure **GitHub Pages** to serve from the `docs/` folder.
+
+---
+
+## Advanced Configuration
+
+### 9. Enable Sitemap, TOC, and Tags
+
+Modify `config.toml` to enable sitemap and TOC:
+
+```toml
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 3
+    startLevel = 1
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+```
+
+### 10. Verify and Test
+
+Use the following command to check the setup:
+
+```sh
+hugo server -D --disableFastRender
+```
+
+---
 
 ## **3️⃣ Install Hugo Docs Engine**  
 Hugo is used for offline documentation. First, ensure you have Go installed as it's required for Hugo modules:
