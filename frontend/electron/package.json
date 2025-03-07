@@ -1,13 +1,14 @@
 {
   "private": true,
   "name": "ultrarepo",
-  "description": "Private AI Repo",
+  "description": "My application description",
   "version": "1.0.0",
   "author": "UltraRepo",
   "main": "app/background.js",
   "scripts": {
     "dev": "nextron dev",
     "build": "nextron build",
+    "start": "nextron start",
     "postinstall": "electron-builder install-app-deps"
   },
   "dependencies": {

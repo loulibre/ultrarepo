@@ -1,18 +1,18 @@
 {
+  "private": true,
   "name": "ultrarepo",
   "version": "1.0.0",
-  "main": "app/background.js",
-  "keywords": [],
+  "description": "UltraRepo - Unified Electron, Web, API, and Docs",
   "author": "UltraRepo",
+  "main": "app/background.js",
   "license": "MIT",
-  "description": "",
 
   "scripts": {
     "dev": "npm run dev:electron",
     "build": "npm run build:electron",
-    
-    "dev:electron": "cd frontend/electron && nextron dev",
-    "build:electron": "cd frontend/electron && nextron build",
+
+    "dev:electron": "cd frontend/electron && npx nextron dev",
+    "build:electron": "cd frontend/electron && npx nextron build",
 
     "dev:web": "cd frontend/web && npm run dev",
     "build:web": "cd frontend/web && npm run build",
@@ -21,7 +21,10 @@
     "build:backend": "cd backend && python -m compileall api",
 
     "dev:docs": "cd docs && hugo server -D",
-    "build:docs": "cd docs && hugo"
+    "build:docs": "cd docs && hugo",
+
+    "install:electron": "cd frontend/electron && npm install",
+    "install:web": "cd frontend/web && npm install"
   },
 
   "dependencies": {
