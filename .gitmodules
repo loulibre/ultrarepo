@@ -1,0 +1,3 @@
+[submodule "themes/ultradocs"]
+	path = themes/ultradocs
+	url = https://github.com/loulibre/ultradocs.git

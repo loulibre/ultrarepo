@@ -44,6 +44,7 @@
     "linux": {
       "target": "AppImage",
       "icon": "frontend/electron/resources/linux/"
+      
     }
   }
 }

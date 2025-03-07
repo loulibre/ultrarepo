@@ -1,0 +1,23 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'UltraDocs'
+theme = 'ultradocs'
+
+[params]
+description = "UltraRepo Developer Documentation"
+author = "UltraRepo Team"
+github = "https://github.com/loulibre/ultradocs"
+showAuthor = true
+showReadingTime = false
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[markup]
+[markup.tableOfContents]
+endLevel = 3
+startLevel = 1
+
+[taxonomies]
+tag = "tags"
+category = "categories"
