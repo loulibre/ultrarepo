@@ -9,7 +9,7 @@ export default function Home() {
 
       {/* Centered Logo - Using Correct Path */}
       <img 
-        src="/images/logo.png"  // Corrected Path for Public Folder
+        src="/images/logo.svg"  // Corrected Path for Public Folder
         alt="UltraRepo Logo"
         className="w-[520px] h-[80px] mx-auto"
       />
