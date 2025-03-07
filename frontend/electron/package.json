@@ -32,7 +32,9 @@
   "build": {
     "appId": "com.ultrarepo.app",
     "mac": {
-      "target": "dmg"
+      "target": "dmg",
+      "identity": null, 
+      "hardenedRuntime": false
     },
     "win": {
       "target": "nsis"

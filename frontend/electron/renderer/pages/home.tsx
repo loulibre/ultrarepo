@@ -7,7 +7,7 @@ export default function HomePage() {
   return (
     <React.Fragment>
       <Head>
-        <title>Home - Nextron (with-tailwindcss)</title>
+        <title>UltraRepo Home(with-tailwindcss)</title>
       </Head>
       <div className="grid grid-col-1 text-2xl w-full text-center">
         <div>
@@ -15,17 +15,17 @@ export default function HomePage() {
             className="ml-auto mr-auto"
             src="/images/logo.png"
             alt="Logo image"
-            width={256}
-            height={256}
+            width={974}
+            height={150}
           />
         </div>
-        <span>⚡ Electron ⚡</span>
+        <span>⚡ Private AI Desktop for Mac/Win/Linux ⚡</span>
         <span>+</span>
-        <span>Next.js</span>
+        <span>Electron | Next.js</span>
         <span>+</span>
-        <span>tailwindcss</span>
+        <span>Tailwindcss | ShadCn </span>
         <span>=</span>
-        <span>💕 </span>
+        <span>💕 Copyright 2025 UltraRepo.com </span>
       </div>
       <div className="mt-1 w-full flex-wrap flex justify-center">
         <Link href="/next">Go to next page</Link>
