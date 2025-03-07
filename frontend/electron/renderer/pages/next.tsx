@@ -15,8 +15,8 @@ export default function NextPage() {
             className="ml-auto mr-auto"
             src="/images/logo.png"
             alt="Logo image"
-            width={256}
-            height={256}
+            width={520}
+            height={80}
           />
         </div>
         <span>⚡ Nextron ⚡</span>

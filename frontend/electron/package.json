@@ -1,7 +1,7 @@
 {
   "private": true,
-  "name": "ultrarepo",
-  "description": "My application description",
+  "name": "UltraRepo",
+  "description": "Private AI Desktop",
   "version": "1.0.0",
   "author": "UltraRepo",
   "main": "app/background.js",
@@ -33,14 +33,17 @@
     "appId": "com.ultrarepo.app",
     "mac": {
       "target": "dmg",
-      "identity": null, 
+      "icon": "frontend/electron/resources/mac/icon/icon.icns",
+      "identity": null,
       "hardenedRuntime": false
     },
     "win": {
-      "target": "nsis"
+      "target": "nsis",
+      "icon": "frontend/electron/resources/windows/icon.ico"
     },
     "linux": {
-      "target": "AppImage"
+      "target": "AppImage",
+      "icon": "frontend/electron/resources/linux/"
     }
   }
 }

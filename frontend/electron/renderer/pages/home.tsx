@@ -1,35 +1,33 @@
-import React from 'react'
-import Head from 'next/head'
-import Link from 'next/link'
-import Image from 'next/image'
+"use client";
 
-export default function HomePage() {
+export default function Home() {
   return (
-    <React.Fragment>
-      <Head>
-        <title>UltraRepo Home(with-tailwindcss)</title>
-      </Head>
-      <div className="grid grid-col-1 text-2xl w-full text-center">
-        <div>
-          <Image
-            className="ml-auto mr-auto"
-            src="/images/logo.png"
-            alt="Logo image"
-            width={974}
-            height={150}
-          />
-        </div>
-        <span>⚡ Private AI Desktop for Mac/Win/Linux ⚡</span>
-        <span>+</span>
-        <span>Electron | Next.js</span>
-        <span>+</span>
-        <span>Tailwindcss | ShadCn </span>
-        <span>=</span>
-        <span>💕 Copyright 2025 UltraRepo.com </span>
-      </div>
-      <div className="mt-1 w-full flex-wrap flex justify-center">
-        <Link href="/next">Go to next page</Link>
-      </div>
-    </React.Fragment>
-  )
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white">
+      
+      {/* Spacer Above the Logo */}
+      <div className="pt-20"></div>
+
+      {/* Centered Logo - Using Correct Path */}
+      <img 
+        src="/images/logo.png"  // Corrected Path for Public Folder
+        alt="UltraRepo Logo"
+        className="w-[520px] h-[80px] mx-auto"
+      />
+
+      {/* Subtitle */}
+      <p className="mt-6 text-lg text-center">⚡ Private AI Desktop for Mac/Win/Linux ⚡</p>
+      <p className="text-md text-center">+ Electron | Next.js</p>
+      <p className="text-md text-center">+ Tailwindcss | ShadCn</p>
+
+      {/* Copyright */}
+      <p className="mt-6 text-sm text-gray-400 text-center">
+        💕 Copyright 2025 UltraRepo.com
+      </p>
+
+      {/* Navigation */}
+      <a href="/next" className="mt-6 text-blue-400 hover:underline text-center">
+        Go to next page
+      </a>
+    </div>
+  );
 }
