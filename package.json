@@ -6,32 +6,24 @@
   "author": "UltraRepo",
   "main": "app/background.js",
   "license": "MIT",
-
   "scripts": {
     "dev": "npm run dev:electron",
     "build": "npm run build:electron",
-
     "dev:electron": "cd frontend/electron && npx nextron dev",
     "build:electron": "cd frontend/electron && npx nextron build",
-
     "dev:web": "cd frontend/web && npm run dev",
     "build:web": "cd frontend/web && npm run build",
-
     "dev:backend": "cd backend && uvicorn api.main:app --reload",
     "build:backend": "cd backend && python -m compileall api",
-
     "dev:docs": "cd docs && hugo server -D",
     "build:docs": "cd docs && hugo",
-
     "install:electron": "cd frontend/electron && npm install",
     "install:web": "cd frontend/web && npm install"
   },
-
   "dependencies": {
     "electron-serve": "^1.3.0",
     "electron-store": "^8.2.0"
   },
-
   "devDependencies": {
     "@types/node": "^20.11.16",
     "@types/react": "^18.2.52",

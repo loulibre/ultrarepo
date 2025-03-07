@@ -1,0 +1,56 @@
+# ==========================================
+# 🚀 UltraRepo Git Ignore File
+# ==========================================
+
+# === Hugo Generated Files ===
+/public/
+/resources/_gen/
+exampleSite/public
+exampleSite/resources/_gen/
+.hugo_build.lock
+
+# === Node Modules & Dependencies ===
+/node_modules/
+frontend/web/node_modules/
+frontend/electron/node_modules/
+
+# === Build Output & Cache ===
+frontend/web/.next/
+frontend/electron/renderer/.next/
+frontend/electron/out/
+frontend/electron/dist/
+frontend/electron/.nextron/
+frontend/electron/.parcel-cache/
+frontend/web/.parcel-cache/
+
+# === Environment & System Files ===
+*.env
+*.log
+*.lock
+*.DS_Store
+*.swp
+*.swo
+*.swn
+*.bak
+
+# === IDE & Editor Files ===
+.vscode/
+.idea/
+*.code-workspace
+*.iml
+
+# === Cypress & Test Files ===
+/cypress/downloads/
+debug.log
+
+# === Common Workflow Files ===
+workflow.log
+
+# === Htmltest Files ===
+/tmp/
+
+# === Miscellaneous ===
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
