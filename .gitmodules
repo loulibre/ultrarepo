@@ -10,3 +10,6 @@
 [submodule "docs/themes/ultradoc"]
 	path = docs/themes/ultradoc
 	url = https://github.com/loulibre/ultradocs.git
+[submodule "docs/themes/docsy"]
+	path = docs/themes/docsy
+	url = https://github.com/google/docsy.git

@@ -13,6 +13,10 @@ exampleSite/resources/_gen/
 /node_modules/
 frontend/web/node_modules/
 frontend/electron/node_modules/
+/.yarn/
+/.cache/
+/.pnp/
+.pnp.*
 
 # === Build Output & Cache ===
 frontend/web/.next/
@@ -22,9 +26,14 @@ frontend/electron/dist/
 frontend/electron/.nextron/
 frontend/electron/.parcel-cache/
 frontend/web/.parcel-cache/
+/dist/
+/.next/
+/coverage/
+/tmp/
 
 # === Environment & System Files ===
 *.env
+*.env.local
 *.log
 *.lock
 *.DS_Store
@@ -38,6 +47,21 @@ frontend/web/.parcel-cache/
 .idea/
 *.code-workspace
 *.iml
+
+# === Python & MkDocs ===
+/__pycache__/
+*.py[cod]
+/site/
+/mkdocs_build/
+/mkdocs-material/.cache/
+/.mkdocs-cache/
+/venv/
+/.venv/
+
+# === Backstage Specific ===
+/techdocs_cache/
+/static/docs/
+database.sqlite
 
 # === Cypress & Test Files ===
 /cypress/downloads/
