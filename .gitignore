@@ -1,13 +1,16 @@
 # ==========================================
 # 🚀 UltraRepo Git Ignore File
 # ==========================================
-
-# === Hugo Generated Files ===
-/public/
-/resources/_gen/
-exampleSite/public
-exampleSite/resources/_gen/
-.hugo_build.lock
+# === Git Ignore ===
+# This file is used to ignore files and folders from being tracked by Git.
+# You can add files and folders to this file to ignore them.
+# For more information, see the Git documentation:
+# === Git Ignore ===
+# This file is used to ignore files and folders from being tracked by Git.
+# You can add files and folders to this file to ignore them.
+# For more information, see the Git documentation: URL_ADDRESS-scm.com/docs/gitignore
+# === Example ===
+# To ignore all files in the `node_modules` folder, add the following line to this file:
 
 # === Node Modules & Dependencies ===
 /node_modules/
@@ -20,6 +23,7 @@ frontend/electron/node_modules/
 
 # === Build Output & Cache ===
 frontend/web/.next/
+frontend/electron/app/_next/
 frontend/electron/renderer/.next/
 frontend/electron/out/
 frontend/electron/dist/
@@ -47,6 +51,7 @@ frontend/web/.parcel-cache/
 .idea/
 *.code-workspace
 *.iml
+*.vercel
 
 # === Python & MkDocs ===
 /__pycache__/
@@ -59,6 +64,7 @@ frontend/web/.parcel-cache/
 /.venv/
 
 # === Backstage Specific ===
+/backstage/
 /techdocs_cache/
 /static/docs/
 database.sqlite

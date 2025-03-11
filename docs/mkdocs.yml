@@ -1,0 +1,9 @@
+site_name: UltraRepo Documentation Home
+site_url: http://localhost:8000
+theme:
+  name: material
+  docs_dir: docs
+palette:
+    scheme: slate  # Options: default, slate, dark, light, etc.
+    primary: blue # Custom blue color
+    accent: pink   # Accent color (for buttons, links, etc.)

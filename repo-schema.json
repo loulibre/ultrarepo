@@ -1,0 +1,821 @@
+{
+  "project": "UltraRepo Documentation",
+  "version": "1.0",
+  "taxonomy": [
+    {
+      "folder": ".",
+      "files": [
+        {
+          "name": "ultradocs-install.md",
+          "path": "ultradocs-install.md",
+          "metadata": {
+            "modified": "2025-03-06T23:14:32.795965",
+            "type": ".md",
+            "ai_description": "Markdown documentation file",
+            "extracted_description": "# Installing Hugo Docs with UltraDocs Theme in UltraRepo"
+          }
+        },
+        {
+          "name": "repo-schema.py",
+          "path": "repo-schema.py",
+          "metadata": {
+            "modified": "2025-03-10T17:43:57.350692",
+            "type": ".py",
+            "ai_description": "Python source code file",
+            "extracted_description": "import os"
+          }
+        },
+        {
+          "name": "repo-schema.json",
+          "path": "repo-schema.json",
+          "metadata": {
+            "modified": "2025-03-10T17:44:53.426219",
+            "type": ".json",
+            "ai_description": "JSON configuration or data file",
+            "extracted_description": "(Binary file)"
+          }
+        },
+        {
+          "name": "README.md",
+          "path": "README.md",
+          "metadata": {
+            "modified": "2025-03-09T22:07:16.463392",
+            "type": ".md",
+            "ai_description": "Project documentation and overview",
+            "extracted_description": "# UltraRepo Archiver - A Desktop and Web App for Use with AI Agents with privacy and offline support"
+          }
+        },
+        {
+          "name": "package-lock.json",
+          "path": "package-lock.json",
+          "metadata": {
+            "modified": "2025-03-07T03:14:27.296774",
+            "type": ".json",
+            "ai_description": "JSON configuration or data file",
+            "extracted_description": "(Binary file)"
+          }
+        },
+        {
+          "name": "package.json",
+          "path": "package.json",
+          "metadata": {
+            "modified": "2025-03-06T16:46:16.957268",
+            "type": ".json",
+            "ai_description": "Node.js package configuration and dependencies",
+            "extracted_description": "(Binary file)"
+          }
+        },
+        {
+          "name": "repo-schema.md",
+          "path": "repo-schema.md",
+          "metadata": {
+            "modified": "2025-03-10T17:44:53.434045",
+            "type": ".md",
+            "ai_description": "Markdown documentation file",
+            "extracted_description": "# UltraRepo Documentation v1.0"
+          }
+        }
+      ],
+      "subfolders": [
+        "frontend",
+        "node_modules",
+        "backend",
+        "docs",
+        ".venv"
+      ]
+    },
+    {
+      "folder": "frontend/web",
+      "files": [
+        {
+          "name": "postcss.config.mjs",
+          "path": "frontend/web/postcss.config.mjs",
+          "metadata": {
+            "modified": "2025-03-06T16:15:53.088423",
+            "type": ".mjs",
+            "ai_description": "File with .mjs extension",
+            "extracted_description": "const config = {"
+          }
+        },
+        {
+          "name": "next-env.d.ts",
+          "path": "frontend/web/next-env.d.ts",
+          "metadata": {
+            "modified": "2025-03-06T16:15:53.088257",
+            "type": ".ts",
+            "ai_description": "TypeScript source code file",
+            "extracted_description": "(Binary file)"
+          }
+        },
+        {
+          "name": "README.md",
+          "path": "frontend/web/README.md",
+          "metadata": {
+            "modified": "2025-03-06T16:15:53.087978",
+            "type": ".md",
+            "ai_description": "Project documentation and overview",
+            "extracted_description": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs"
+          }
+        },
+        {
+          "name": "package-lock.json",
+          "path": "frontend/web/package-lock.json",
+          "metadata": {
+            "modified": "2025-03-06T16:58:16.708494",
+            "type": ".json",
+            "ai_description": "JSON configuration or data file",
+            "extracted_description": "(Binary file)"
+          }
+        },
+        {
+          "name": "package.json",
+          "path": "frontend/web/package.json",
+          "metadata": {
+            "modified": "2025-03-06T16:15:53.090423",
+            "type": ".json",
+            "ai_description": "Node.js package configuration and dependencies",
+            "extracted_description": "(Binary file)"
+          }
+        },
+        {
+          "name": "tsconfig.json",
+          "path": "frontend/web/tsconfig.json",
+          "metadata": {
+            "modified": "2025-03-06T16:15:53.089852",
+            "type": ".json",
+            "ai_description": "TypeScript compiler configuration",
+            "extracted_description": "(Binary file)"
+          }
+        },
+        {
+          "name": "eslint.config.mjs",
+          "path": "frontend/web/eslint.config.mjs",
+          "metadata": {
+            "modified": "2025-03-06T16:15:53.088562",
+            "type": ".mjs",
+            "ai_description": "File with .mjs extension",
+            "extracted_description": "import { dirname } from \"path\";"
+          }
+        },
+        {
+          "name": "next.config.ts",
+          "path": "frontend/web/next.config.ts",
+          "metadata": {
+            "modified": "2025-03-06T16:15:53.087940",
+            "type": ".ts",
+            "ai_description": "TypeScript source code file",
+            "extracted_description": "(Binary file)"
+          }
+        }
+      ],
+      "subfolders": [
+        "node_modules",
+        ".next",
+        "public",
+        "src"
+      ]
+    },
+    {
+      "folder": "frontend/web/public",
+      "files": [
+        {
+          "name": "file.svg",
+          "path": "frontend/web/public/file.svg",
+          "metadata": {
+            "modified": "2025-03-06T16:15:53.087881",
+            "type": ".svg",
+            "ai_description": "File with .svg extension",
+            "extracted_description": "(Binary file)"
+          }
+        },
+        {
+          "name": "vercel.svg",
+          "path": "frontend/web/public/vercel.svg",
+          "metadata": {
+            "modified": "2025-03-06T16:15:53.089256",
+            "type": ".svg",
+            "ai_description": "File with .svg extension",
+            "extracted_description": "(Binary file)"
+          }
+        },
+        {
+          "name": "next.svg",
+          "path": "frontend/web/public/next.svg",
+          "metadata": {
+            "modified": "2025-03-06T16:15:53.089142",
+            "type": ".svg",
+            "ai_description": "File with .svg extension",
+            "extracted_description": "(Binary file)"
+          }
+        },
+        {
+          "name": "globe.svg",
+          "path": "frontend/web/public/globe.svg",
+          "metadata": {
+            "modified": "2025-03-06T16:15:53.088905",
+            "type": ".svg",
+            "ai_description": "File with .svg extension",
+            "extracted_description": "(Binary file)"
+          }
+        },
+        {
+          "name": "window.svg",
+          "path": "frontend/web/public/window.svg",
+          "metadata": {
+            "modified": "2025-03-06T16:15:53.089256",
+            "type": ".svg",
+            "ai_description": "File with .svg extension",
+            "extracted_description": "(Binary file)"
+          }
+        }
+      ],
+      "subfolders": []
+    },
+    {
+      "folder": "frontend/web/src/app",
+      "files": [
+        {
+          "name": "favicon.ico",
+          "path": "frontend/web/src/app/favicon.ico",
+          "metadata": {
+            "modified": "2025-03-06T16:15:53.088160",
+            "type": ".ico",
+            "ai_description": "File with .ico extension",
+            "extracted_description": "(Binary file)"
+          }
+        },
+        {
+          "name": "layout.tsx",
+          "path": "frontend/web/src/app/layout.tsx",
+          "metadata": {
+            "modified": "2025-03-06T16:15:53.088951",
+            "type": ".tsx",
+            "ai_description": "React TypeScript component file",
+            "extracted_description": "import type { Metadata } from \"next\";"
+          }
+        },
+        {
+          "name": "page.tsx",
+          "path": "frontend/web/src/app/page.tsx",
+          "metadata": {
+            "modified": "2025-03-06T16:24:06.233571",
+            "type": ".tsx",
+            "ai_description": "React TypeScript component file",
+            "extracted_description": "import Image from \"next/image\";"
+          }
+        },
+        {
+          "name": "globals.css",
+          "path": "frontend/web/src/app/globals.css",
+          "metadata": {
+            "modified": "2025-03-06T16:15:53.088770",
+            "type": ".css",
+            "ai_description": "CSS stylesheet file",
+            "extracted_description": "@import \"tailwindcss\";"
+          }
+        }
+      ],
+      "subfolders": []
+    },
+    {
+      "folder": "frontend/electron",
+      "files": [
+        {
+          "name": "tailwind.config.js",
+          "path": "frontend/electron/tailwind.config.js",
+          "metadata": {
+            "modified": "2025-03-06T18:17:57.750090",
+            "type": ".js",
+            "ai_description": "JavaScript source code file",
+            "extracted_description": "/** @type {import('tailwindcss').Config} */"
+          }
+        },
+        {
+          "name": "README.md",
+          "path": "frontend/electron/README.md",
+          "metadata": {
+            "modified": "2025-01-16T02:58:49",
+            "type": ".md",
+            "ai_description": "Project documentation and overview",
+            "extracted_description": "<p align=\"center\"><img src=\"https://i.imgur.com/a9QWW0v.png\"></p>"
+          }
+        },
+        {
+          "name": "package-lock.json",
+          "path": "frontend/electron/package-lock.json",
+          "metadata": {
+            "modified": "2025-03-06T22:29:00.102946",
+            "type": ".json",
+            "ai_description": "JSON configuration or data file",
+            "extracted_description": "(Binary file)"
+          }
+        },
+        {
+          "name": "package.json",
+          "path": "frontend/electron/package.json",
+          "metadata": {
+            "modified": "2025-03-06T21:59:27.300205",
+            "type": ".json",
+            "ai_description": "Node.js package configuration and dependencies",
+            "extracted_description": "(Binary file)"
+          }
+        },
+        {
+          "name": "electron-builder.yml",
+          "path": "frontend/electron/electron-builder.yml",
+          "metadata": {
+            "modified": "2025-03-06T22:26:59.479515",
+            "type": ".yml",
+            "ai_description": "YAML configuration file",
+            "extracted_description": "appId: com.electron.ultrarepo"
+          }
+        },
+        {
+          "name": "tsconfig.json",
+          "path": "frontend/electron/tsconfig.json",
+          "metadata": {
+            "modified": "2025-01-16T02:58:49",
+            "type": ".json",
+            "ai_description": "TypeScript compiler configuration",
+            "extracted_description": "(Binary file)"
+          }
+        },
+        {
+          "name": "postcss.config.js",
+          "path": "frontend/electron/postcss.config.js",
+          "metadata": {
+            "modified": "2025-03-06T18:17:57.750286",
+            "type": ".js",
+            "ai_description": "JavaScript source code file",
+            "extracted_description": "module.exports = {"
+          }
+        }
+      ],
+      "subfolders": [
+        "renderer",
+        "app",
+        "dist",
+        "resources",
+        "node_modules",
+        "build",
+        ".vscode",
+        "main"
+      ]
+    },
+    {
+      "folder": "frontend/electron/renderer",
+      "files": [
+        {
+          "name": "tailwind.config.js",
+          "path": "frontend/electron/renderer/tailwind.config.js",
+          "metadata": {
+            "modified": "2025-03-06T18:20:07.068037",
+            "type": ".js",
+            "ai_description": "JavaScript source code file",
+            "extracted_description": "const colors = require('tailwindcss/colors');"
+          }
+        },
+        {
+          "name": "next.config.js",
+          "path": "frontend/electron/renderer/next.config.js",
+          "metadata": {
+            "modified": "2025-01-16T02:58:49",
+            "type": ".js",
+            "ai_description": "Next.js framework configuration",
+            "extracted_description": "/** @type {import('next').NextConfig} */"
+          }
+        },
+        {
+          "name": "preload.d.ts",
+          "path": "frontend/electron/renderer/preload.d.ts",
+          "metadata": {
+            "modified": "2025-01-16T02:58:49",
+            "type": ".ts",
+            "ai_description": "TypeScript source code file",
+            "extracted_description": "(Binary file)"
+          }
+        },
+        {
+          "name": "next-env.d.ts",
+          "path": "frontend/electron/renderer/next-env.d.ts",
+          "metadata": {
+            "modified": "2025-03-06T16:03:17.474415",
+            "type": ".ts",
+            "ai_description": "TypeScript source code file",
+            "extracted_description": "(Binary file)"
+          }
+        },
+        {
+          "name": "tsconfig.json",
+          "path": "frontend/electron/renderer/tsconfig.json",
+          "metadata": {
+            "modified": "2025-01-16T02:58:49",
+            "type": ".json",
+            "ai_description": "TypeScript compiler configuration",
+            "extracted_description": "(Binary file)"
+          }
+        },
+        {
+          "name": "postcss.config.js",
+          "path": "frontend/electron/renderer/postcss.config.js",
+          "metadata": {
+            "modified": "2025-01-16T02:58:49",
+            "type": ".js",
+            "ai_description": "JavaScript source code file",
+            "extracted_description": "module.exports = {"
+          }
+        }
+      ],
+      "subfolders": [
+        ".next",
+        "styles",
+        "public",
+        "pages"
+      ]
+    },
+    {
+      "folder": "frontend/electron/renderer/styles",
+      "files": [
+        {
+          "name": "globals.css",
+          "path": "frontend/electron/renderer/styles/globals.css",
+          "metadata": {
+            "modified": "2025-01-16T02:58:49",
+            "type": ".css",
+            "ai_description": "CSS stylesheet file",
+            "extracted_description": "@tailwind base;"
+          }
+        }
+      ],
+      "subfolders": []
+    },
+    {
+      "folder": "frontend/electron/renderer/public/images",
+      "files": [
+        {
+          "name": "logo-wh-blue.png",
+          "path": "frontend/electron/renderer/public/images/logo-wh-blue.png",
+          "metadata": {
+            "modified": "2025-03-06T17:52:47.199434",
+            "type": ".png",
+            "ai_description": "File with .png extension",
+            "extracted_description": "(Binary file)"
+          }
+        },
+        {
+          "name": "logo-white.png",
+          "path": "frontend/electron/renderer/public/images/logo-white.png",
+          "metadata": {
+            "modified": "2025-03-06T11:44:12.498472",
+            "type": ".png",
+            "ai_description": "File with .png extension",
+            "extracted_description": "(Binary file)"
+          }
+        },
+        {
+          "name": "logo.svg",
+          "path": "frontend/electron/renderer/public/images/logo.svg",
+          "metadata": {
+            "modified": "2025-03-06T21:38:13.325557",
+            "type": ".svg",
+            "ai_description": "File with .svg extension",
+            "extracted_description": "(Binary file)"
+          }
+        }
+      ],
+      "subfolders": []
+    },
+    {
+      "folder": "frontend/electron/renderer/pages",
+      "files": [
+        {
+          "name": "home.tsx",
+          "path": "frontend/electron/renderer/pages/home.tsx",
+          "metadata": {
+            "modified": "2025-03-06T21:39:35.540693",
+            "type": ".tsx",
+            "ai_description": "React TypeScript component file",
+            "extracted_description": "\"use client\";"
+          }
+        },
+        {
+          "name": "next.tsx",
+          "path": "frontend/electron/renderer/pages/next.tsx",
+          "metadata": {
+            "modified": "2025-03-06T17:47:15.886491",
+            "type": ".tsx",
+            "ai_description": "React TypeScript component file",
+            "extracted_description": "import React from 'react'"
+          }
+        },
+        {
+          "name": "_app.tsx",
+          "path": "frontend/electron/renderer/pages/_app.tsx",
+          "metadata": {
+            "modified": "2025-01-16T02:58:49",
+            "type": ".tsx",
+            "ai_description": "React TypeScript component file",
+            "extracted_description": "import React from 'react'"
+          }
+        }
+      ],
+      "subfolders": []
+    },
+    {
+      "folder": "frontend/electron/app",
+      "files": [
+        {
+          "name": "preload.js.map",
+          "path": "frontend/electron/app/preload.js.map",
+          "metadata": {
+            "modified": "2025-03-06T22:29:35.551830",
+            "type": ".map",
+            "ai_description": "File with .map extension",
+            "extracted_description": "{\"version\":3,\"file\":\"preload.js\",\"mappings\":\"CAAA,SAA2CA,EAAMC,GAChD,GAAsB,iBAAZC,SAA0C,iBAAXC,OACxC"
+          }
+        },
+        {
+          "name": "preload.js",
+          "path": "frontend/electron/app/preload.js",
+          "metadata": {
+            "modified": "2025-03-10T13:18:37.763402",
+            "type": ".js",
+            "ai_description": "JavaScript source code file",
+            "extracted_description": "(function webpackUniversalModuleDefinition(root, factory) {"
+          }
+        },
+        {
+          "name": "background.js",
+          "path": "frontend/electron/app/background.js",
+          "metadata": {
+            "modified": "2025-03-10T13:18:37.763475",
+            "type": ".js",
+            "ai_description": "JavaScript source code file",
+            "extracted_description": "(function webpackUniversalModuleDefinition(root, factory) {"
+          }
+        },
+        {
+          "name": "404.html",
+          "path": "frontend/electron/app/404.html",
+          "metadata": {
+            "modified": "2025-03-06T22:29:34.403561",
+            "type": ".html",
+            "ai_description": "HTML web page file",
+            "extracted_description": "<!DOCTYPE html><html><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width\""
+          }
+        },
+        {
+          "name": "background.js.map",
+          "path": "frontend/electron/app/background.js.map",
+          "metadata": {
+            "modified": "2025-03-06T22:29:35.551885",
+            "type": ".map",
+            "ai_description": "File with .map extension",
+            "extracted_description": "{\"version\":3,\"file\":\"background.js\",\"mappings\":\"CAAA,SAA2CA,EAAMC,GAChD,GAAsB,iBAAZC,SAA0C,iBAAXC,OA"
+          }
+        }
+      ],
+      "subfolders": [
+        "_next",
+        "home",
+        "next",
+        "images",
+        "404"
+      ]
+    },
+    {
+      "folder": "frontend/electron/app/home",
+      "files": [
+        {
+          "name": "index.html",
+          "path": "frontend/electron/app/home/index.html",
+          "metadata": {
+            "modified": "2025-03-06T22:29:34.405165",
+            "type": ".html",
+            "ai_description": "HTML web page file",
+            "extracted_description": "<!DOCTYPE html><html><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width\""
+          }
+        }
+      ],
+      "subfolders": []
+    },
+    {
+      "folder": "frontend/electron/app/next",
+      "files": [
+        {
+          "name": "index.html",
+          "path": "frontend/electron/app/next/index.html",
+          "metadata": {
+            "modified": "2025-03-06T22:29:34.405021",
+            "type": ".html",
+            "ai_description": "HTML web page file",
+            "extracted_description": "<!DOCTYPE html><html><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width\""
+          }
+        }
+      ],
+      "subfolders": []
+    },
+    {
+      "folder": "frontend/electron/app/images",
+      "files": [
+        {
+          "name": "logo-wh-blue.png",
+          "path": "frontend/electron/app/images/logo-wh-blue.png",
+          "metadata": {
+            "modified": "2025-03-06T22:29:34.328820",
+            "type": ".png",
+            "ai_description": "File with .png extension",
+            "extracted_description": "(Binary file)"
+          }
+        },
+        {
+          "name": "logo-white.png",
+          "path": "frontend/electron/app/images/logo-white.png",
+          "metadata": {
+            "modified": "2025-03-06T22:29:34.328854",
+            "type": ".png",
+            "ai_description": "File with .png extension",
+            "extracted_description": "(Binary file)"
+          }
+        },
+        {
+          "name": "logo.svg",
+          "path": "frontend/electron/app/images/logo.svg",
+          "metadata": {
+            "modified": "2025-03-06T22:29:34.329079",
+            "type": ".svg",
+            "ai_description": "File with .svg extension",
+            "extracted_description": "(Binary file)"
+          }
+        }
+      ],
+      "subfolders": []
+    },
+    {
+      "folder": "frontend/electron/app/404",
+      "files": [
+        {
+          "name": "index.html",
+          "path": "frontend/electron/app/404/index.html",
+          "metadata": {
+            "modified": "2025-03-06T22:29:34.404205",
+            "type": ".html",
+            "ai_description": "HTML web page file",
+            "extracted_description": "<!DOCTYPE html><html><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width\""
+          }
+        }
+      ],
+      "subfolders": []
+    },
+    {
+      "folder": "frontend/electron/resources",
+      "files": [
+        {
+          "name": "icon.icns",
+          "path": "frontend/electron/resources/icon.icns",
+          "metadata": {
+            "modified": "2025-03-06T17:24:28.471864",
+            "type": ".icns",
+            "ai_description": "File with .icns extension",
+            "extracted_description": "(Binary file)"
+          }
+        },
+        {
+          "name": "icon.ico",
+          "path": "frontend/electron/resources/icon.ico",
+          "metadata": {
+            "modified": "2025-03-06T21:30:39.058305",
+            "type": ".ico",
+            "ai_description": "File with .ico extension",
+            "extracted_description": "(Binary file)"
+          }
+        }
+      ],
+      "subfolders": [
+        "mac"
+      ]
+    },
+    {
+      "folder": "frontend/electron/resources/mac/icon",
+      "files": [
+        {
+          "name": "icon.icns",
+          "path": "frontend/electron/resources/mac/icon/icon.icns",
+          "metadata": {
+            "modified": "2025-03-06T17:39:53.268390",
+            "type": ".icns",
+            "ai_description": "File with .icns extension",
+            "extracted_description": "(Binary file)"
+          }
+        }
+      ],
+      "subfolders": []
+    },
+    {
+      "folder": "frontend/electron/main",
+      "files": [
+        {
+          "name": "background.ts",
+          "path": "frontend/electron/main/background.ts",
+          "metadata": {
+            "modified": "2025-01-16T02:58:49",
+            "type": ".ts",
+            "ai_description": "TypeScript source code file",
+            "extracted_description": "(Binary file)"
+          }
+        },
+        {
+          "name": "preload.ts",
+          "path": "frontend/electron/main/preload.ts",
+          "metadata": {
+            "modified": "2025-01-16T02:58:49",
+            "type": ".ts",
+            "ai_description": "TypeScript source code file",
+            "extracted_description": "(Binary file)"
+          }
+        }
+      ],
+      "subfolders": [
+        "helpers"
+      ]
+    },
+    {
+      "folder": "frontend/electron/main/helpers",
+      "files": [
+        {
+          "name": "create-window.ts",
+          "path": "frontend/electron/main/helpers/create-window.ts",
+          "metadata": {
+            "modified": "2025-01-16T02:58:49",
+            "type": ".ts",
+            "ai_description": "TypeScript source code file",
+            "extracted_description": "(Binary file)"
+          }
+        },
+        {
+          "name": "index.ts",
+          "path": "frontend/electron/main/helpers/index.ts",
+          "metadata": {
+            "modified": "2025-01-16T02:58:49",
+            "type": ".ts",
+            "ai_description": "TypeScript source code file",
+            "extracted_description": "(Binary file)"
+          }
+        }
+      ],
+      "subfolders": []
+    },
+    {
+      "folder": "backend/api",
+      "files": [
+        {
+          "name": "next.config.js",
+          "path": "backend/api/next.config.js",
+          "metadata": {
+            "modified": "2025-03-06T15:46:40.838471",
+            "type": ".js",
+            "ai_description": "Next.js framework configuration",
+            "extracted_description": "/** @type {import('next').NextConfig} */"
+          }
+        }
+      ],
+      "subfolders": []
+    },
+    {
+      "folder": "docs",
+      "files": [
+        {
+          "name": "mkdocs.yml",
+          "path": "docs/mkdocs.yml",
+          "metadata": {
+            "modified": "2025-03-10T18:11:32.661764",
+            "type": ".yml",
+            "ai_description": "YAML configuration file",
+            "extracted_description": "site_name: UltraRepo Documentation Home"
+          }
+        }
+      ],
+      "subfolders": [
+        "docs"
+      ]
+    },
+    {
+      "folder": "docs/docs",
+      "files": [
+        {
+          "name": "index.md",
+          "path": "docs/docs/index.md",
+          "metadata": {
+            "modified": "2025-03-10T18:12:26.261759",
+            "type": ".md",
+            "ai_description": "Markdown documentation file",
+            "extracted_description": "# UltraRepo Documentation Home"
+          }
+        }
+      ],
+      "subfolders": []
+    }
+  ],
+  "files_scanned": 101,
+  "files_processed": 65
+}
