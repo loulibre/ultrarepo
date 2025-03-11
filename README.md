@@ -19,7 +19,7 @@ This is a **Next.js + Electron** application built with the Nextron project that
 - **MkDocs Docs (MkDocs Material template) for offline documentation**
 
 ## Project Structure
-
+```
 📂 ultrarepo-main/
   📂 .vercel/
     📄 README.txt
@@ -102,7 +102,7 @@ This is a **Next.js + Electron** application built with the Nextron project that
   📄 package-lock.json
   📄 package.json
   📄 ultradocs-install.md
-
+```
 The project structure above provides cross platform support including clients for web and desktop. The project **file structure** is based on the **Nextron-Python-Electron** project, which supports **Electron, Next.js, Tailwind CSS, ShadCN UI components, FastAPI,and MkDocs documentation**.  The project can support a binary executable version of FastAPI, which enables the web service and API to run without a Python installation.  The project also includes an MkDocs documentation engine, which is a great way to create offline documentation for your project.  The project also includes a centralized Tailwind CSS and ShadCN UI component design system.  The project also includes a pre-built version of the MkDocs documentation engine, which can be used to create, edit and view  documentation for your project, even if offline.   The project can be installed on a portable .zip drive, and if you build the electron version of the app, it can easily be distributed to other users via .zip or online with a standard macos .dmg or a windows .exe file.
 
 
