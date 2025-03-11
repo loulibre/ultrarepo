@@ -574,21 +574,3 @@ npm start
 }
 ```
 
-## 📌 Summary
-
-✅ **FastAPI compiled to a standalone binary using Cython**  
-✅ **Electron app starts the FastAPI backend automatically**  
-✅ **Uses `main.ts` OR a startup script (`start_backend.sh` or `.bat`)**  
-✅ **Works on macOS & Windows (requires correct compilers)**  
-
-
-
-
-
-## 🔹 Key Updates:
-✅ **Added `/preload.ts` and `/renderer.tsx` for better Electron security**  
-✅ **Separated `/public/` for Next.js & Hugo shared assets**  
-✅ **Added Cython-based FastAPI compilation support (`api.pyx` & `setup.py`)**  
-✅ **Updated `/hugo_docs/` with Learn theme and markdown content folder**  
-✅ **Added `/scripts/` for Electron startup scripts (`start_backend.sh` & `.bat`)**  
-✅ **Ensured proper folder structure for building & running without Python**
